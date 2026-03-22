@@ -1,0 +1,106 @@
+/* .Code{
+  border: 0.5px solid rgb(244, 220, 220);
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px;
+  padding: 20px;
+  text-align: center;
+  max-width: 300px;
+  display: inline-block;
+}
+.Code .mypic{
+  max-width: 88%;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.Code .title{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(25, 27, 27);
+} */
+
+
+
+
+/* ColorPicker */
+/* body{
+  background-color: rgb(165, 217, 200);
+}
+.color-picker-element{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  margin: 20px;
+  font-size: 3rem;
+}
+.color-display{
+  width: 300px;
+  height: 300px;
+  border: 10px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.color-display p{
+  font-size: large;
+  font-weight: bold;
+
+} */
+
+
+
+
+/* //stopWatch */
+body{
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.StopWatch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 7px solid;
+  border-radius: 30px;
+  background-color: aliceblue;
+  padding: 30px;
+}
+.display{
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.712);
+  margin-bottom: 15px;
+}
+.control{
+  display: flex;
+  gap: 20px;          /* 👈 buttons ke beech gap */
+  margin-top: 20px;   /* display se thoda neeche */
+}
+.control button{
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid;
+  cursor: pointer;
+  color: azure;
+  min-width: 100px;
+  padding: 15px 20px;
+}
+.Start-Button{
+  background-color: rgb(55, 255, 0);
+}
+.Stop-Button{
+  background-color: rgb(255, 0, 0);
+}
+.Reset-Button{
+  background-color: rgb(8, 0, 255);
+}
+
